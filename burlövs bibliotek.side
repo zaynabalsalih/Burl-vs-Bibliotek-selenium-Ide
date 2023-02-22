@@ -1,0 +1,132 @@
+{
+  "id": "3a6ec320-6d2f-46da-af7b-2080e502e592",
+  "version": "2.0",
+  "name": "arlövs biblotek",
+  "url": "https://bibliotek.burlov.se/",
+  "tests": [{
+    "id": "15edd799-75ea-46b0-af6d-92f5d205c53d",
+    "name": "test 1",
+    "commands": [{
+      "id": "864f954a-4c07-46c8-82c1-0eec32245ee8",
+      "comment": "",
+      "command": "open",
+      "target": "/-/arlovs-bibliotek",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b77987c-fd68-4047-95ef-e7ebd64f3e6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bac5edf2-2976-4da3-ad5f-2af92f8c9dd0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#navigation li:nth-child(4) span",
+      "targets": [
+        ["css=#navigation li:nth-child(4) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce57877b-5474-420d-bc11-e1ffd1b57161",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#navigation li:nth-child(4) span",
+      "targets": [
+        ["css=#navigation li:nth-child(4) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a49e5a14-0afe-4023-a8c7-ee10efdf0be3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(1) span",
+      "targets": [
+        ["css=#navigation li:nth-child(1) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Startsida')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "91298a23-7261-40b6-a45a-bd04832d7a0d",
+    "name": "test med command click",
+    "commands": [{
+      "id": "d948b661-ffbe-4947-b7f7-82c23d9165d1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7dec518-c5d9-46e3-bcec-30ad4f740e0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation .search-link-icon",
+      "targets": [
+        ["css=#navigation .search-link-icon", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d5c8810-e84b-41a7-8c52-0ca93473edcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=id__simpleSearch__WAR__arenaportlet____6",
+      "targets": [
+        ["id=id__simpleSearch__WAR__arenaportlet____6", "id"],
+        ["name=containerSearchQuery:textSearchQuery", "name"],
+        ["css=#id__simpleSearch__WAR__arenaportlet____6", "css:finder"],
+        ["xpath=//input[@id='id__simpleSearch__WAR__arenaportlet____6']", "xpath:attributes"],
+        ["xpath=//span[@id='id__simpleSearch__WAR__arenaportlet____8']/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4743d308-059c-4b2d-b51d-51071de98a54",
+    "name": "set widows size",
+    "commands": [{
+      "id": "798553a2-b744-4778-8e57-0756acb29c6b",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9368080-9359-45be-b605-d868519857b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d963ad13-b961-4d27-bda2-4b75f07dac5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "300x200",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "67a97146-6343-4de8-9fa1-3a1c6b3e1e44",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["15edd799-75ea-46b0-af6d-92f5d205c53d"]
+  }],
+  "urls": ["https://bibliotek.burlov.se/"],
+  "plugins": []
+}
