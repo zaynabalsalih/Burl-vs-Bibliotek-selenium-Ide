@@ -118,6 +118,115 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "5ccd5092-2b76-4c40-ba59-a91c91506e73",
+    "name": "close webswindow",
+    "commands": [{
+      "id": "9d47c880-c8c4-40f2-8e07-e94b8fa04e15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb34399-2961-4df2-98de-5d72f4b530e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(1) span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a58c0c9-42f0-401d-8922-17074a4d39bd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6027b270-bbfe-453f-a253-71e2e2aae71e",
+    "name": "select ",
+    "commands": [{
+      "id": "94eb1e98-3879-48b1-bee5-0b9396909db8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9275880-e95e-49bf-9a8b-480b6994562d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Språk",
+      "targets": [
+        ["linkText=Språk", "linkText"],
+        ["css=li:nth-child(3) > .header-shortcuts__language", "css:finder"],
+        ["xpath=//a[contains(text(),'Språk')]", "xpath:link"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "632e5cdb-7bc2-48d0-8663-5e213b0f4d91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Språk",
+      "targets": [
+        ["linkText=Språk", "linkText"],
+        ["css=li:nth-child(3) > .header-shortcuts__language", "css:finder"],
+        ["xpath=//a[contains(text(),'Språk')]", "xpath:link"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7baebf78-69b2-49f2-82c6-3283c18a3654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goog-te-combo",
+      "targets": [
+        ["css=.goog-te-combo", "css:finder"],
+        ["xpath=//div[@id=':0.targetLanguage']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a7946b-6bc1-4b21-bd57-18875a56768f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=arabiska"
+    }, {
+      "id": "2d19bcdd-d5df-48de-ab02-9d91a147e41f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goog-te-combo",
+      "targets": [
+        ["css=.goog-te-combo", "css:finder"],
+        ["xpath=//div[@id=':0.targetLanguage']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0b2591-41a3-45fb-bdc3-ec19c5efe3aa",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=svenska"
+    }, {
+      "id": "6e24fcd2-3dd3-4776-a6b7-e7fe9a7f958b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "67a97146-6343-4de8-9fa1-3a1c6b3e1e44",
