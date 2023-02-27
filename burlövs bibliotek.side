@@ -365,6 +365,50 @@
       ],
       "value": "Lommavägen 2"
     }]
+  }, {
+    "id": "e0f4b379-d7ef-4041-aa63-60748ca55f78",
+    "name": "verify text",
+    "commands": [{
+      "id": "156b59e5-d4c1-453b-9bfe-c2566741e37a",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a5094a8-e031-4526-9d2b-bd5a6ca6aba9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d26c7bf6-d208-47fa-84ff-bec87e78678e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,80)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cc17bfe-b108-4984-a57f-b67eddaa3af7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-sm-12:nth-child(1) > app-event-summary .arena-event-dateonly > span:nth-child(3)",
+      "targets": [
+        ["css=.col-sm-12:nth-child(1) > app-event-summary .arena-event-dateonly > span:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='arena__com_axiell_arena_liferay_modules_apps_calendar_event_list_web_portlet_CalendarEventListPortlet_INSTANCE_2B5u5rfQwL5P_']/ng-component/ng-component/div/div/div/app-event-search-result/div/div/app-event-summary/div/a/div/app-event-date-interval/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//div/div/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sön 26 feb.')]", "xpath:innerText"]
+      ],
+      "value": "Sön 26 feb."
+    }, {
+      "id": "4c7bf486-8dfe-45e0-923f-a405a00d39b5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "67a97146-6343-4de8-9fa1-3a1c6b3e1e44",
