@@ -409,6 +409,140 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "efed5a5a-3620-43f6-b180-edcad3a3fab1",
+    "name": "assert text av adress2",
+    "commands": [{
+      "id": "deeef1ce-be18-4998-bb78-70471c579fbd",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9697c633-1464-4bd6-bc41-8477430c4f9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60b15abd-04f5-4971-a67e-1cb29f549680",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(2) span",
+      "targets": [
+        ["css=#navigation li:nth-child(2) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öppet och kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4f07a76-176f-4ced-bdb6-c78a88311596",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____10",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____10", "id"],
+        ["name=openTextUsernameContainer:openTextUsername", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____10", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____10']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____f']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "198803226383"
+    }, {
+      "id": "e3613f95-8114-4b20-986b-06db034fbcf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____11",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____11", "id"],
+        ["name=textPassword", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____11", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____11']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____f']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2233"
+    }, {
+      "id": "48639fb8-7778-4d8f-8990-025fd1683068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.branch-list-container:nth-child(2) h2",
+      "targets": [
+        ["css=.branch-list-container:nth-child(2) h2", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ULwnC4oulvN5']/div/div/div/section/a/article/div/h2", "xpath:idRelative"],
+        ["xpath=//article/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Arlövs bibliotek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2852c457-4c86-446a-8a63-719adf5dc006",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____10",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____10", "id"],
+        ["name=openTextUsernameContainer:openTextUsername", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____10", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____10']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____f']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "198803226383"
+    }, {
+      "id": "9372d9fa-fabc-4e8f-a6dd-bb8c5ff4bc40",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____11",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____11", "id"],
+        ["name=textPassword", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____11", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____11']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____f']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2233"
+    }, {
+      "id": "1fc162fb-f2f9-499d-8833-edc94eb0883f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,92)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b781d38-e641-4ac0-a622-4b5aa30ed3a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3)",
+      "targets": [
+        ["css=ul:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]", "xpath:idRelative"],
+        ["xpath=//ul[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64b0f74c-2172-42ca-941b-14c1ba88fe9d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": "Gata\\nLommavägen 2"
+    }, {
+      "id": "746afac5-b646-4bcc-946e-39f3a3e5ac0d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "67a97146-6343-4de8-9fa1-3a1c6b3e1e44",
