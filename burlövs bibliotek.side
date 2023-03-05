@@ -543,6 +543,175 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "56675e43-9a72-4d00-a94d-b0acdd5f66ed",
+    "name": "assert titel",
+    "commands": [{
+      "id": "f498861e-9100-4814-a24c-7ad771f1280a",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4c1cd77-2d87-4340-b1b3-1d915dee6ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29717d54-c5fb-4e1e-876e-53f66934ad23",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=bapluslogo",
+      "targets": [
+        ["id=bapluslogo", "id"],
+        ["linkText=Lyssna", "linkText"],
+        ["css=ul > li > #bapluslogo", "css:finder"],
+        ["xpath=//a[contains(text(),'Lyssna')]", "xpath:link"],
+        ["xpath=//a[@id='bapluslogo']", "xpath:attributes"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/readspeaker')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f34f6083-531b-4bfb-8cc4-e03e3f1d37ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-default",
+      "targets": [
+        ["css=.logo-default", "css:finder"],
+        ["xpath=//img[@alt='Burlöv - Länk till startsidan']", "xpath:img"],
+        ["xpath=//div[@id='topWrapper']/header/h1/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc2aa445-cc93-4421-bc1d-1d2e19441020",
+      "comment": "",
+      "command": "click",
+      "target": "css=header",
+      "targets": [
+        ["css=header", "css:finder"],
+        ["xpath=//div[@id='topWrapper']/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfb5e4a-b109-4c4f-83b6-981a897bef27",
+      "comment": "",
+      "command": "click",
+      "target": "css=header",
+      "targets": [
+        ["css=header", "css:finder"],
+        ["xpath=//div[@id='topWrapper']/header", "xpath:idRelative"],
+        ["xpath=//header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5431a007-78ff-4fe3-b14b-584583d48f57",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Startsida - Burlöv",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46f72d29-08ad-4305-864f-999957e389df",
+      "comment": "",
+      "command": "click",
+      "target": "id=content-wrapper",
+      "targets": [
+        ["id=content-wrapper", "id"],
+        ["css=#content-wrapper", "css:finder"],
+        ["xpath=//div[@id='content-wrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapper']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1855a7d-9204-491d-b4cf-7c9e0c75ae79",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "096a3916-94db-4b93-92d9-5705993845ce",
+    "name": "assert fel titel",
+    "commands": [{
+      "id": "7d22a595-ccaf-423a-9847-e57fe7ec4687",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ae5fad8-70de-436e-8043-71bb34609c21",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "xxzzz",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "160f01c2-d72f-43eb-98b9-5fd7f59d6cec",
+    "name": "assert titel2",
+    "commands": [{
+      "id": "9d79c2ea-2960-4a7e-80b5-b9a05cdc08a3",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83b98f13-10f6-4260-9416-eab225ea2b51",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d294c1eb-b2fd-4560-b7ae-f784e3b1be00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-spot:nth-child(1) .grid-spot-title",
+      "targets": [
+        ["css=.grid-spot:nth-child(1) .grid-spot-title", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_rbGxP5jGY8Tk']/div/div/div/section/ul/li/a/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a575ef9-3591-41ac-b31a-ce2e41042a9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-basic-title",
+      "targets": [
+        ["css=.article-basic-title", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_C3c9AncJ4W0N']/div/div/div/div[3]/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87922409-54e6-4036-8741-8ce8c32921a9",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Barn och unga - Burlöv",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4b2eb2b-a9ba-4d3c-95f0-8c32cafa6b77",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "67a97146-6343-4de8-9fa1-3a1c6b3e1e44",
