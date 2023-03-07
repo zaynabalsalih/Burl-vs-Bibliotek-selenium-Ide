@@ -642,6 +642,135 @@
     "id": "096a3916-94db-4b93-92d9-5705993845ce",
     "name": "assert fel titel",
     "commands": [{
+      "id": "03244142-2cf2-44e4-bb46-d9d08c4c2333",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____4",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____4", "id"],
+        ["name=openTextUsernameContainer:openTextUsername", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____4", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____4']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____3']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "198803226383"
+    }, {
+      "id": "ae49d575-f490-45d2-874d-a79b4968b3a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____5",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____5", "id"],
+        ["name=textPassword", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____5", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____5']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____3']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2233"
+    }, {
+      "id": "273d5588-903c-4fb1-9566-c24480580e4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=id__simpleSearch__WAR__arenaportlet____2",
+      "targets": [
+        ["id=id__simpleSearch__WAR__arenaportlet____2", "id"],
+        ["name=containerSearchQuery:textSearchQuery", "name"],
+        ["css=#id__simpleSearch__WAR__arenaportlet____2", "css:finder"],
+        ["xpath=//input[@id='id__simpleSearch__WAR__arenaportlet____2']", "xpath:attributes"],
+        ["xpath=//span[@id='id__simpleSearch__WAR__arenaportlet____4']/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e42a23f-e66c-4ecb-83e4-4050d8d72f2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__simpleSearch__WAR__arenaportlet____2",
+      "targets": [
+        ["id=id__simpleSearch__WAR__arenaportlet____2", "id"],
+        ["name=containerSearchQuery:textSearchQuery", "name"],
+        ["css=#id__simpleSearch__WAR__arenaportlet____2", "css:finder"],
+        ["xpath=//input[@id='id__simpleSearch__WAR__arenaportlet____2']", "xpath:attributes"],
+        ["xpath=//span[@id='id__simpleSearch__WAR__arenaportlet____4']/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "kpolskpqöAW"
+    }, {
+      "id": "780d8ec3-d87f-482c-a355-8da9d2a0c73c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=id__simpleSearch__WAR__arenaportlet____2",
+      "targets": [
+        ["id=id__simpleSearch__WAR__arenaportlet____2", "id"],
+        ["name=containerSearchQuery:textSearchQuery", "name"],
+        ["css=#id__simpleSearch__WAR__arenaportlet____2", "css:finder"],
+        ["xpath=//input[@id='id__simpleSearch__WAR__arenaportlet____2']", "xpath:attributes"],
+        ["xpath=//span[@id='id__simpleSearch__WAR__arenaportlet____4']/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "be27e054-2788-40e4-8bf5-50e26f76f63f",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____4",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____4", "id"],
+        ["name=openTextUsernameContainer:openTextUsername", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____4", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____4']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____3']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "198803226383"
+    }, {
+      "id": "97a0182e-de17-4517-8020-2643013c617b",
+      "comment": "",
+      "command": "type",
+      "target": "id=id__patronLogin__WAR__arenaportlet____5",
+      "targets": [
+        ["id=id__patronLogin__WAR__arenaportlet____5", "id"],
+        ["name=textPassword", "name"],
+        ["css=#id__patronLogin__WAR__arenaportlet____5", "css:finder"],
+        ["xpath=//input[@id='id__patronLogin__WAR__arenaportlet____5']", "xpath:attributes"],
+        ["xpath=//form[@id='id__patronLogin__WAR__arenaportlet____3']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2233"
+    }, {
+      "id": "7cce284b-a624-48ba-8bcb-b66ea04f9dc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feedbackPanelINFO > .feedbackPanelINFO",
+      "targets": [
+        ["css=.feedbackPanelINFO > .feedbackPanelINFO", "css:finder"],
+        ["xpath=//div[@id='portlet_searchResult_WAR_arenaportlet']/div/div/div/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Din sökning på \"kpolskpqöAW\" gav 0 träffar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b5eb9a-c2be-47e8-886e-93a8c210ab45",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.feedbackPanelINFO > .feedbackPanelINFO",
+      "targets": [
+        ["css=.feedbackPanelINFO > .feedbackPanelINFO", "css:finder"],
+        ["xpath=//div[@id='portlet_searchResult_WAR_arenaportlet']/div/div/div/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Din sökning på \"kpolskpqöAW\" gav 0 träffar')]", "xpath:innerText"]
+      ],
+      "value": "Din sökning på \"kpolskpqöAW\" gav 0 träffar"
+    }, {
+      "id": "3a211d12-c185-4387-99f8-0acf7a606ee8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "7d22a595-ccaf-423a-9847-e57fe7ec4687",
       "comment": "",
       "command": "open",
@@ -706,6 +835,62 @@
       "value": ""
     }, {
       "id": "f4b2eb2b-a9ba-4d3c-95f0-8c32cafa6b77",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "acc8a175-160f-4a5f-a8c5-e30792249808",
+    "name": "test 4",
+    "commands": [{
+      "id": "1b6cc769-9f3c-44cc-a949-500ad588aab2",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d81930a5-d262-4818-a4b3-1e1ae423d5c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3f66956-62a8-485d-8ffe-f166b0ab64a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-spot:nth-child(1) .grid-spot-title",
+      "targets": [
+        ["css=.grid-spot:nth-child(1) .grid-spot-title", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_rbGxP5jGY8Tk']/div/div/div/section/ul/li/a/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a7bd45-534e-4f50-a3a2-6d86e02c3134",
+      "comment": "",
+      "command": "click",
+      "target": "css=.article-basic-title",
+      "targets": [
+        ["css=.article-basic-title", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_C3c9AncJ4W0N']/div/div/div/div[3]/article/h1", "xpath:idRelative"],
+        ["xpath=//article/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Barn och unga')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa79cf6-a448-47a0-8887-6268b14cab34",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Barn och unga - Burlöv",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05dce321-a5cc-4ffe-be11-5b60aae46622",
       "comment": "",
       "command": "close",
       "target": "",
