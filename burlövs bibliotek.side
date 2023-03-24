@@ -249,18 +249,6 @@
         ["xpath=//h2[contains(.,'Barn och unga')]", "xpath:innerText"]
       ],
       "value": "Barn och unga"
-    }, {
-      "id": "bc99d291-f0ec-4ee2-9280-483143ec1fd5",
-      "comment": "",
-      "command": "assertText",
-      "target": "css=.col-sm-12:nth-child(1) > app-event-summary .card-title",
-      "targets": [
-        ["css=.col-sm-12:nth-child(1) > app-event-summary .card-title", "css:finder"],
-        ["xpath=//div[@id='arena__com_axiell_arena_liferay_modules_apps_calendar_event_list_web_portlet_CalendarEventListPortlet_INSTANCE_2B5u5rfQwL5P_']/ng-component/ng-component/div/div/div/app-event-search-result/div/div/app-event-summary/div/a/div/h3", "xpath:idRelative"],
-        ["xpath=//h3", "xpath:position"],
-        ["xpath=//h3[contains(.,'Stjärnspäckade pop up-kort')]", "xpath:innerText"]
-      ],
-      "value": "Stjärnspäckade pop up-kort"
     }]
   }, {
     "id": "58edd425-c243-47c3-b1ca-691900475011",
@@ -891,6 +879,390 @@
       "value": ""
     }, {
       "id": "05dce321-a5cc-4ffe-be11-5b60aae46622",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ae15c3f4-b31c-4cb6-9da8-f61945bcf5b2",
+    "name": "test 5 byt språket",
+    "commands": [{
+      "id": "87884590-a757-4fec-a9f6-8cd9b0387c46",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "903a39de-bb4d-40b1-bc86-acd7ed752cb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec06d920-adff-431a-b26c-d842141e3ce6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Språk",
+      "targets": [
+        ["linkText=Språk", "linkText"],
+        ["css=li:nth-child(3) > .header-shortcuts__language", "css:finder"],
+        ["xpath=//a[contains(text(),'Språk')]", "xpath:link"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b02925c4-89e4-4323-b05b-d0a949599332",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goog-te-combo",
+      "targets": [
+        ["css=.goog-te-combo", "css:finder"],
+        ["xpath=//div[@id=':0.targetLanguage']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b334853-91bf-4c9d-bfa4-0b42c3e5030f",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=arabiska"
+    }, {
+      "id": "28054cc5-47bb-4042-acaf-5a2ec7bb4081",
+      "comment": "",
+      "command": "click",
+      "target": "css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close",
+      "targets": [
+        ["css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'يغلق')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c2c57e7-5877-4e80-9925-d1609e57072b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "68b704fa-292c-4d54-a3bf-e077131c00af",
+    "name": "Test2222",
+    "commands": [{
+      "id": "1de833c9-f599-44c1-b94a-f67174bc37cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05fb5ab0-1a1b-42a7-90da-b262f1dc96d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f6d69ed-fc7a-4b2c-918c-4750c7e8806e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(2) span",
+      "targets": [
+        ["css=#navigation li:nth-child(2) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öppet och kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ac66a1-26d4-4049-a054-253c816bb9dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.branch-list-container:nth-child(2) h2",
+      "targets": [
+        ["css=.branch-list-container:nth-child(2) h2", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ULwnC4oulvN5']/div/div/div/section/a/article/div/h2", "xpath:idRelative"],
+        ["xpath=//article/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Arlövs bibliotek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9588ecfd-83ba-4321-8c77-3755a9122ee8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8c728ce-d3fa-4c23-8e96-b0e3babe506b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1aa698-69c1-4e76-bb8a-5a065ee65979",
+      "comment": "",
+      "command": "click",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2b5337-0398-404f-b50a-4c176d2c4719",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7fab599-44e9-47c7-a5b3-6895db5c1ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43793d74-215d-4fbe-98e4-06e0e781a273",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-glutter",
+      "targets": [
+        ["css=.no-glutter", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc68df2b-ca92-4dd8-a736-5dd96dd78366",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": "Gata\\nLommavägen 2"
+    }, {
+      "id": "97b18533-a459-4628-b0b4-a235cdd9e3b6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0321bf27-0116-48fc-a95d-810d74954e21",
+    "name": "test 7",
+    "commands": [{
+      "id": "7cd3efe9-83b1-4294-bd59-d8c3bcb1d47f",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "378b8442-d28b-43a2-90c4-ccb42b434f1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d39e87b-9ba1-4bb7-a4a0-99c4d740ba07",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(2) span",
+      "targets": [
+        ["css=#navigation li:nth-child(2) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öppet och kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccf1a4c2-3c17-44f5-9feb-f207813a1ba8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "24c301b0-2833-44a0-8afe-485868200954",
+    "name": "test66",
+    "commands": [{
+      "id": "cbbc812e-113c-4274-8743-2c0e54214ca4",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a0ec00d-bdbd-4db7-97d2-683d89f508cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b215ba-62a9-47a4-8aee-15788a9300c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Språk",
+      "targets": [
+        ["linkText=Språk", "linkText"],
+        ["css=li:nth-child(3) > .header-shortcuts__language", "css:finder"],
+        ["xpath=//a[contains(text(),'Språk')]", "xpath:link"],
+        ["xpath=//div[@id='topWrapper']/header/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Språk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be33d33-de33-4ee5-976c-725efba19f56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goog-te-combo",
+      "targets": [
+        ["css=.goog-te-combo", "css:finder"],
+        ["xpath=//div[@id=':0.targetLanguage']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd1a7ea3-09c5-47e3-a635-3d7ce4513ac3",
+      "comment": "",
+      "command": "select",
+      "target": "css=.goog-te-combo",
+      "targets": [],
+      "value": "label=arabiska"
+    }, {
+      "id": "5efabbee-437f-453a-95c0-e78c324f8a48",
+      "comment": "",
+      "command": "click",
+      "target": "css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close",
+      "targets": [
+        ["css=#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet > .modal__close", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet']/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'يغلق')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "908d749c-56c1-408d-8937-ef1e62540471",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6175dea9-60a6-4acd-8a11-14190a970b3f",
+    "name": "assert text11",
+    "commands": [{
+      "id": "4143c693-6283-4943-97e2-7ad231e9d771",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e17e2970-b731-4e94-bc31-ed63dd97a6c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce2eb107-04db-4e05-904a-431c293c125e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(2) span",
+      "targets": [
+        ["css=#navigation li:nth-child(2) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Öppet och kontakt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d681026-b925-4b44-89e5-6596d519e7cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.branch-list-container:nth-child(2) h2",
+      "targets": [
+        ["css=.branch-list-container:nth-child(2) h2", "css:finder"],
+        ["xpath=//div[@id='portlet_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_ULwnC4oulvN5']/div/div/div/section/a/article/div/h2", "xpath:idRelative"],
+        ["xpath=//article/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Arlövs bibliotek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "377b25f5-3060-47e8-924d-dff7cd4bee46",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,419.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "178c97c5-786f-4fe5-b2d1-9ce557799af3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,463.20001220703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39432724-5452-4ad9-ba6a-9d49a83a3567",
+      "comment": "",
+      "command": "click",
+      "target": "css=.no-glutter",
+      "targets": [
+        ["css=.no-glutter", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57cdb1c0-418a-40c8-861d-d80f5422d49f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.street:nth-child(1) > font > font",
+      "targets": [
+        ["css=.street:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li/font/font", "xpath:idRelative"],
+        ["xpath=//li/font/font", "xpath:position"]
+      ],
+      "value": "Lommavägen 2"
+    }, {
+      "id": "e854729c-4774-4e0c-a2d8-52affe5436d1",
       "comment": "",
       "command": "close",
       "target": "",
